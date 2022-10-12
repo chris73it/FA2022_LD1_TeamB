@@ -153,6 +153,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a746b6fc427b65c499e3b9374bd4947b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 456220675}
+  speed: 3
+  distanceBetween: 50
 --- !u!212 &142212137
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -353,8 +356,8 @@ GameObject:
   - component: {fileID: 456220679}
   - component: {fileID: 456220678}
   m_Layer: 0
-  m_Name: Brooke
-  m_TagString: Untagged
+  m_Name: Player
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
