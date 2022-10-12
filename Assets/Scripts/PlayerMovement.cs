@@ -4,29 +4,22 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public InputManager input;
+    public Character player;
     Rigidbody2D rb;
 
-    float walkSpeed = 5f;
-    float inputHorizontal;
-    float inputVertical;
 
 
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
     }
-    // Update is called once per frame
-    void Update()
-    {
-            inputHorizontal = Input.GetAxisRaw("Horizontal");
-            inputVertical = Input.GetAxisRaw("Vertical");
-    }
 
     void FixedUpdate()
     {
-        if (inputHorizontal != 0 || inputVertical != 0)
+        if (input.horizontal != 0 || input.vertical != 0)
         {
-            rb.velocity = new Vector2(inputHorizontal, inputVertical).normalized * walkSpeed;
+            rb.velocity = new Vector2(input.horizontal, input.vertical).normalized * player.speed;
 
         }
         else
