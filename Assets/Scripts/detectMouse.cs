@@ -4,8 +4,15 @@ using UnityEngine;
 
 public class detectMouse : MonoBehaviour
 {
-    void OnMouseDown()
+    public bool mouseDown = false;
+    private void OnMouseDown()
     {
         Debug.Log(this.gameObject.name + " was selected!");
+        mouseDown = true;
+    }
+
+    private void OnMouseUp()
+    {
+        mouseDown = false;
     }
 }
