@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e1efd3e2910ab0f41a47900813df0dde
+guid: 38c43414badf8ad4e87c28b59c58cfd0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,13 +130,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RightWalkSprite2_0
+      name: FrontWalkSprite2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 115
-        height: 256
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d36a7335d9f6e14a93455a36690694e
-      internalID: 1805857798
+      spriteID: 4349600cc90db9a4d98c441806df7d43
+      internalID: -830523295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RightWalkSprite2_1
+      name: FrontWalkSprite2_1
       rect:
         serializedVersion: 2
         x: 115
         y: 0
         width: 115
-        height: 256
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +165,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c51411bab14e0b4e8276d2039d7f531
-      internalID: -1157094369
+      spriteID: 8b1bd34efbe9a04458948287d01db1b8
+      internalID: 1050315947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RightWalkSprite2_2
+      name: FrontWalkSprite2_2
       rect:
         serializedVersion: 2
         x: 230
         y: 0
         width: 115
-        height: 256
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06b5fe69fbda0bd4fa58bb0268390444
-      internalID: 230154570
+      spriteID: 761eaa3f5bcef224eb66a7cd35f296aa
+      internalID: -658297797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RightWalkSprite2_3
+      name: FrontWalkSprite2_3
       rect:
         serializedVersion: 2
         x: 345
         y: 0
         width: 115
-        height: 256
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,8 +207,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2512a47a68284b488cb66309c3796eb
-      internalID: -403425769
+      spriteID: cf277c77e1f6e6e44859111b4275938b
+      internalID: 1865942898
       vertices: []
       indices: 
       edges: []
@@ -224,10 +224,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      RightWalkSprite2_1: -1157094369
-      RightWalkSprite2_2: 230154570
-      RightWalkSprite2_3: -403425769
-      RightWalkSprite2_0: 1805857798
+      FrontWalkSprite2_1: 1050315947
+      FrontWalkSprite2_3: 1865942898
+      FrontWalkSprite2_2: -658297797
+      FrontWalkSprite2_0: -830523295
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
