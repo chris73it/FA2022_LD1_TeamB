@@ -648,7 +648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouse: {fileID: 2136509049}
-  level: 1
+  level: 2
 --- !u!114 &2136509049
 MonoBehaviour:
   m_ObjectHideFlags: 0
