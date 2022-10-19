@@ -20,6 +20,10 @@ public class Character : MonoBehaviour
         {
             MrStarkIDontFeelSoGood();
         }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            TakeDamage(2);
+        }
     }
     void TakeDamage(int damage)
     {
