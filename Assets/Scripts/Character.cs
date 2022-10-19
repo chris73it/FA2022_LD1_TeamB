@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
-    public int health = 10;
     public int maxHealth = 10;
     public float speed = 5f;
     public int currentHealth;
@@ -16,7 +15,7 @@ public class Character : MonoBehaviour
     }
     void Update()
     {
-        if (health <= 0)
+        if (currentHealth <= 0)
         {
             MrStarkIDontFeelSoGood();
         }
@@ -28,6 +27,7 @@ public class Character : MonoBehaviour
     void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
     }
 
     void MrStarkIDontFeelSoGood()

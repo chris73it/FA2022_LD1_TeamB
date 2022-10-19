@@ -30,10 +30,10 @@ public class PauseGame : MonoBehaviour
             }
         }
     }
-
-    
-   public void Resume()
+    void resume()
     {
-        
+        Time.timeScale = 1.0f;
+        Canvas.gameObject.SetActive(false);
+
     }
 }
