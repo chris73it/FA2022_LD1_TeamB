@@ -4,19 +4,22 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    int damage;
+    public int damage;
     float speed = 20;
     bool speedFallOff = false;
 
     float lifeTime = 0;
     float maxLife = 1.5f;
 
-    public void Setup(int dmg, float spd, bool fallOff, LayerMask layer)
+    public string exclude;
+
+    public void Setup(int dmg, float spd, bool fallOff, string excludeName, LayerMask layer)
     {
         damage = dmg;
         speed = spd;
         speedFallOff = fallOff;
         this.gameObject.layer = layer;
+        exclude = excludeName;
     }
 
     // Update is called once per frame
@@ -31,6 +34,14 @@ public class Projectile : MonoBehaviour
         }
 
         if (lifeTime > maxLife)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.name != exclude)
         {
             Destroy(this.gameObject);
         }

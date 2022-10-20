@@ -5,13 +5,16 @@ using UnityEngine;
 public class AIChase : MonoBehaviour
 {
     public GameObject player;
-    public float speed;
+    public Character stat;
     public float distanceBetween;
+    public float distance;
 
-    private float distance;
+    private float speedMutation;
+
     void Start()
     {
-        
+        player = GameObject.Find("Player");
+        speedMutation = Random.Range(-1, 3);
     }
 
     void Update()
@@ -23,7 +26,7 @@ public class AIChase : MonoBehaviour
 
         if (distance < distanceBetween)
         {
-            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, (stat.speed + speedMutation) * Time.deltaTime);
         }
     }
 }

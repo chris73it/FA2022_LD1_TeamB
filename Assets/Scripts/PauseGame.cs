@@ -6,8 +6,9 @@ using UnityEngine.SceneManagement;
 public class PauseGame : MonoBehaviour
 {
 
+    public InputManager input;
     public GameObject Canvas;
-    bool Paused = false;
+    bool Paused = false, holdingButton = false;
 
     void Start()
     {
@@ -15,25 +16,39 @@ public class PauseGame : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown("escape"))
+
+        if (input.pause && !holdingButton)
         {
-            if (Paused == true)
+            holdingButton = true;
+            Paused = !Paused;
+            if (Paused)
             {
-                Canvas.gameObject.SetActive(true);
-                Time.timeScale = 0f;
-                Paused = false;
-            } else
+                pause();
+            }
+            else
             {
-                Time.timeScale = 0f;
-                Canvas.gameObject.SetActive(true);
-                Paused = true;
+                resume();
             }
         }
+        if (!input.pause)
+        {
+            holdingButton = false;
+        }
+
     }
-    void resume()
+    
+    public void pause()
     {
-        Time.timeScale = 1.0f;
+        Canvas.gameObject.SetActive(true);
+        Time.timeScale = 0f;
+        input.enabled = false;
+    }
+
+    public void resume()
+    {
+        Time.timeScale = 1f;
         Canvas.gameObject.SetActive(false);
+        input.enabled = true;
 
     }
 }
