@@ -11,11 +11,13 @@ public class Character : MonoBehaviour
     public float speed = 5f;
     public int currentHealth;
     public Health_Bar healthBar;
+    public XP_Bar xpBar;
 
     public CharacterType type;
 
     void Start()
     {
+
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
