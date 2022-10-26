@@ -10,9 +10,12 @@ public class Melee : MonoBehaviour
 
     float lifeTime = 0;
     float maxLife = 0.5f;
-    float knockback = 30f;
+    float knockback = 15f;
 
     public string exclude;
+
+    public Collider2D col;
+    public Renderer sprite;
 
     public void Setup(int dmg, string excludeName, LayerMask layer)
     {
@@ -24,31 +27,45 @@ public class Melee : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        lifeTime += Time.deltaTime;
+        if (lifeTime < maxLife + 1)
+        {
+            lifeTime += Time.deltaTime;
+        }
 
-        /*
+
         if (lifeTime > maxLife)
         {
-            this.gameObject.SetActive(false);
-            if (lifeTime > maxLife + rate)
-            {
-                lifeTime = 0;
-                this.gameObject.SetActive(true);
-            }
-        }*/
+            disable();
+        }
+    }
+
+    public void enable()
+    {
+        lifeTime = 0;
+        col.enabled = true;
+        sprite.enabled = true;
+    }
+    public void disable()
+    {
+        col.enabled = false;
+        sprite.enabled = false;
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.name != exclude)
         {
-            Debug.Log("Melee attack connected");
-            Rigidbody rb2d = other.GetComponent<Rigidbody>();
-
-            if (rb2d != null)
+            if (other.GetComponent<Character>().type != Character.CharacterType.Object)
             {
-                Vector2 dir = (other.transform.position - transform.position);
-                rb2d.velocity = dir * knockback;
+                Rigidbody2D rb2d = other.GetComponent<Rigidbody2D>();
+
+                if (rb2d != null)
+                {
+                    Debug.Log("Attempting to knockback" + rb2d);
+                    Vector2 dir = (transform.position - other.transform.position).normalized;
+                    //rb2d.velocity += dir * knockback;
+                    rb2d.AddForce(dir * knockback, ForceMode2D.Impulse);
+                }
             }
         }
     }
