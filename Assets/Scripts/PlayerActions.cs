@@ -7,7 +7,7 @@ public class PlayerActions : MonoBehaviour
     public InputManager input;
     public AmmoAndReload reloadScript;
     public Gun activeItem;
-    public GameObject projectilePrefab, melee;
+    public GameObject projectilePrefab;
 
     public Transform weaponTransform, gunTip;
 
@@ -33,7 +33,6 @@ public class PlayerActions : MonoBehaviour
         {
             Animation();
             UseActive();
-            UseMelee();
             Reload();
 
             mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition); //position of cursor in world
@@ -59,13 +58,6 @@ public class PlayerActions : MonoBehaviour
             if (timeSinceActive > (activeItem.useRate) && activeItem.clipCurrent > 0 && !reloading) Shoot(activeItem);
         }
     }
-    void UseMelee()
-    {
-        if (input.mouseRight)
-        {
-            melee.GetComponent<Melee>().enable();
-        }
-    }
 
     void Shoot(Gun shootThis)
     {
@@ -81,7 +73,7 @@ public class PlayerActions : MonoBehaviour
             Quaternion projectileRotation = Quaternion.Euler(new Vector3(0, 0, angle + spread));
 
             GameObject projectile = (GameObject)GameObject.Instantiate(projectilePrefab, gunTip.position, projectileRotation);
-            projectile.GetComponent<Projectile>().Setup(shootThis.damage, shootThis.bulletSpeed, shootThis.speedFallOff, shootThis.projectileSprite, this.gameObject.name, this.gameObject.layer);
+            projectile.GetComponent<Projectile>().Setup(shootThis.damage, shootThis.bulletSpeed, shootThis.speedFallOff, this.gameObject.name, this.gameObject.layer);
             Debug.Log(this.gameObject);
         }
         //muzzleFlash.intensity = 2.5f;

@@ -15,22 +15,15 @@ public class Character : MonoBehaviour
 
     public CharacterType type;
 
-    private bool disabled = false;
-
     void Start()
     {
 
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
-
-        if (type != CharacterType.Player)
-        {
-            healthBar.SetHealth(0);
-        }
     }
     void Update()
     {
-        if (currentHealth <= 0 && !disabled)
+        if (currentHealth <= 0)
         {
             MrStarkIDontFeelSoGood();
         }
@@ -91,7 +84,5 @@ public class Character : MonoBehaviour
     {
         this.GetComponent<SpriteRenderer>().enabled = false;
         this.GetComponent<InputManager>().enabled = false;
-        GameObject.Find("Arm").SetActive(false);
-        disabled = true;
     }
 }

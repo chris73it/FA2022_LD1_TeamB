@@ -18,7 +18,6 @@ MonoBehaviour:
   bulletSpread: 3
   bulletSpeed: 30
   speedFallOff: 1
-  projectileSprite: {fileID: 21300000, guid: c9f8550ada5ec6240857b333a6901f4e, type: 3}
   useRate: 0.07
   reloadTime: 1.25
   damage: 1

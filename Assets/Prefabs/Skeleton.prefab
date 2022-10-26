@@ -426,7 +426,6 @@ MonoBehaviour:
   speed: 7
   currentHealth: 0
   healthBar: {fileID: 1535078738204605018}
-  xpBar: {fileID: 0}
   type: 1
 --- !u!114 &7761527075088477928
 MonoBehaviour:
@@ -443,7 +442,7 @@ MonoBehaviour:
   chase: {fileID: 8451072485693965806}
   melee: {fileID: 7307888345106824079}
   damage: 1
-  attackRate: 1.25
+  attackRate: 10
   weapon: {fileID: 8578300890681600674}
   player: {fileID: 0}
   weaponTransform: {fileID: 8181061926660543940}
@@ -505,10 +504,6 @@ PrefabInstance:
     - target: {fileID: 135723251344610783, guid: 3d97b9e0ccee8624782b61754d7a942d, type: 3}
       propertyPath: m_Name
       value: Melee
-      objectReference: {fileID: 0}
-    - target: {fileID: 1406465712143811826, guid: 3d97b9e0ccee8624782b61754d7a942d, type: 3}
-      propertyPath: rate
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6694014896499647462, guid: 3d97b9e0ccee8624782b61754d7a942d, type: 3}
       propertyPath: m_RootOrder

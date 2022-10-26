@@ -48,7 +48,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 0
   exclude: 
-  projectileRenderer: {fileID: 8265251322427742797}
 --- !u!61 &7913674895216244590
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -73,10 +73,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 0
-  rate: 2
   exclude: 
-  col: {fileID: 6863192664873281762}
-  sprite: {fileID: 7672808750278743431}
 --- !u!1 &1708006988810668374
 GameObject:
   m_ObjectHideFlags: 0
