@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level0-2.unity
     guid: f6b8b36fb29da2044915b16cbf0d72c3
+  - enabled: 1
+    path: Assets/Scenes/NercomancerLevel.unity
+    guid: 73fa9d8975c2a78408a1b8b1197513d2
   m_configObjects: {}
