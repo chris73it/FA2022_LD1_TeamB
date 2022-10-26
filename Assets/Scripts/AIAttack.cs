@@ -27,11 +27,11 @@ public class AIAttack : MonoBehaviour
         {
             if (chase.distance < 4)
             {
-                weapon.SetActive(true);
+                weapon.GetComponent<Melee>().enable();
             }
             else
             {
-                weapon.SetActive(false);
+                weapon.GetComponent<Melee>().disable();
             }
         }
     }

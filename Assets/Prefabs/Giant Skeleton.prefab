@@ -426,6 +426,7 @@ MonoBehaviour:
   speed: 15
   currentHealth: 0
   healthBar: {fileID: 1535078738204605018}
+  xpBar: {fileID: 0}
   type: 1
 --- !u!114 &5634785109122659294
 MonoBehaviour:
@@ -442,7 +443,7 @@ MonoBehaviour:
   chase: {fileID: 8451072485693965806}
   melee: {fileID: 1020616080693105180}
   damage: 5
-  attackRate: 10
+  attackRate: 4
   weapon: {fileID: 2039882571284923185}
   player: {fileID: 0}
   weaponTransform: {fileID: 59783669008281532}

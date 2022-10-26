@@ -12,14 +12,16 @@ public class Projectile : MonoBehaviour
     float maxLife = 1.5f;
 
     public string exclude;
+    public SpriteRenderer projectileRenderer;
 
-    public void Setup(int dmg, float spd, bool fallOff, string excludeName, LayerMask layer)
+    public void Setup(int dmg, float spd, bool fallOff, Sprite sprite, string excludeName, LayerMask layer)
     {
         damage = dmg;
         speed = spd;
         speedFallOff = fallOff;
         this.gameObject.layer = layer;
         exclude = excludeName;
+        projectileRenderer.sprite = sprite;
     }
 
     // Update is called once per frame
