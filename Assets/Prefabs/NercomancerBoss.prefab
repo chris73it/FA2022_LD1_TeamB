@@ -204,7 +204,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4604273099938157233}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.4, y: 0, z: 0}
+  m_LocalPosition: {x: -0.00000029802, y: 0, z: 0}
   m_LocalScale: {x: 3.0996501, y: 3.0996501, z: 0.61993}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -369,7 +369,6 @@ GameObject:
   - component: {fileID: 5634785109122659294}
   - component: {fileID: 8451072485693965802}
   - component: {fileID: 8451072485693965803}
-  - component: {fileID: 7153211437899640848}
   m_Layer: 0
   m_Name: NercomancerBoss
   m_TagString: enemy
@@ -427,7 +426,6 @@ MonoBehaviour:
   speed: 15
   currentHealth: 0
   healthBar: {fileID: 1535078738204605018}
-  xpBar: {fileID: 0}
   type: 1
 --- !u!114 &5634785109122659294
 MonoBehaviour:
@@ -495,20 +493,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &7153211437899640848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8451072485693965793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a240b8f5b9d198a4d8a92a389515b263, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawner: {fileID: 8451072485693965805}
-  Item: {fileID: 5860880001425730500, guid: 37d991e4afb53934ba5d049924dc4ccb, type: 3}
 --- !u!1001 &2138420339105519342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -539,7 +523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6694014896499647462, guid: 3d97b9e0ccee8624782b61754d7a942d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.2
+      value: 13.7
       objectReference: {fileID: 0}
     - target: {fileID: 6694014896499647462, guid: 3d97b9e0ccee8624782b61754d7a942d, type: 3}
       propertyPath: m_LocalPosition.y
