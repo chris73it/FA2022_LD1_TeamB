@@ -13,6 +13,8 @@ public class Gun : ScriptableObject
     public int bulletSpread;
     public float bulletSpeed;
     public bool speedFallOff;
+
+    public Sprite projectileSprite;
     
     public float  useRate;
     public float reloadTime;
