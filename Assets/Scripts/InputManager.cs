@@ -7,7 +7,7 @@ public class InputManager : MonoBehaviour
 
     public bool enabled = true;
 
-    public bool mouseLeft, mouseRight, reload, pause;
+    public bool mouseLeft, mouseRight, reload, pause, pickup;
     public float horizontal, vertical;
 
     void Update()
@@ -20,6 +20,8 @@ public class InputManager : MonoBehaviour
 
             horizontal = Input.GetAxisRaw("Horizontal");
             vertical = Input.GetAxisRaw("Vertical");
+
+            pickup = Input.GetKey(KeyCode.F);
         }
 
         pause = Input.GetKey(KeyCode.Escape);
