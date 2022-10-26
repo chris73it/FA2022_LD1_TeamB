@@ -14,6 +14,9 @@ public class Melee : MonoBehaviour
 
     public string exclude;
 
+    public Collider2D col;
+    public Renderer sprite;
+
     public void Setup(int dmg, string excludeName, LayerMask layer)
     {
         damage = dmg;
@@ -24,25 +27,35 @@ public class Melee : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        lifeTime += Time.deltaTime;
+        if (lifeTime < maxLife + 1)
+        {
+            lifeTime += Time.deltaTime;
+        }
 
-        /*
+        
         if (lifeTime > maxLife)
         {
-            this.gameObject.SetActive(false);
-            if (lifeTime > maxLife + rate)
-            {
-                lifeTime = 0;
-                this.gameObject.SetActive(true);
-            }
-        }*/
+            disable();
+        }
+    }
+
+    public void enable()
+    {
+        lifeTime = 0;
+        col.enabled = true;
+        sprite.enabled = true;
+    }
+    public void disable()
+    {
+        col.enabled = false;
+        sprite.enabled = false;
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.name != exclude)
         {
-            Debug.Log("Melee attack connected");
+            //Debug.Log("Melee attack connected");
             Rigidbody rb2d = other.GetComponent<Rigidbody>();
 
             if (rb2d != null)
