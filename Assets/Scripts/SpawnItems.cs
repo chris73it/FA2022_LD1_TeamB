@@ -13,7 +13,7 @@ public class SpawnItems : MonoBehaviour
     public void doIt()
     {
         Vector3 spawnPos = this.transform.position;
-        GameObject newEnemy = Instantiate(Item, spawnPos, Quaternion.identity);
+        GameObject newItem = Instantiate(Item, spawnPos, Quaternion.identity);
     }
 
 }

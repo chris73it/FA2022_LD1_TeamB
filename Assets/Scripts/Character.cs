@@ -12,6 +12,7 @@ public class Character : MonoBehaviour
     public int currentHealth;
     public Health_Bar healthBar;
     public XP_Bar xpBar;
+    public SpawnItems dropItem;
 
     public CharacterType type;
 
@@ -47,6 +48,11 @@ public class Character : MonoBehaviour
 
     void MrStarkIDontFeelSoGood()
     {
+        if (dropItem != null)
+        {
+            dropItem.doIt();
+        }
+
         if (type == CharacterType.Player)
         {
             disablePlayer();

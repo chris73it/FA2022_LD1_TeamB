@@ -36,8 +36,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.47, y: 28.5}
-  m_SizeDelta: {x: 6, y: 1}
+  m_AnchoredPosition: {x: 0, y: 28.5}
+  m_SizeDelta: {x: 10, y: 1.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2917842207743854029
 MonoBehaviour:
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.87058824, g: 0.07450981, b: 0, a: 1}
+  m_Color: {r: 0, g: 0.8773585, b: 0.16750601, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -370,6 +370,7 @@ GameObject:
   - component: {fileID: 8451072485693965802}
   - component: {fileID: 8451072485693965803}
   - component: {fileID: 7153211437899640848}
+  - component: {fileID: 6161064341203855103}
   m_Layer: 0
   m_Name: NercomancerBoss
   m_TagString: enemy
@@ -424,7 +425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 1000
-  speed: 15
+  speed: 2
   currentHealth: 0
   healthBar: {fileID: 1535078738204605018}
   xpBar: {fileID: 0}
@@ -472,7 +473,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 25, y: 60}
+  m_Size: {x: 30, y: 30}
   m_EdgeRadius: 0
 --- !u!50 &8451072485693965803
 Rigidbody2D:
@@ -509,6 +510,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawner: {fileID: 8451072485693965805}
   Item: {fileID: 5860880001425730500, guid: 37d991e4afb53934ba5d049924dc4ccb, type: 3}
+--- !u!114 &6161064341203855103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8451072485693965793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 845e298273a6cff4899fda78e0a02e54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeleton: {fileID: 8451072485693965793, guid: a3b8b2c2670e21640bb3bd757564e7c2, type: 3}
+  ArmorSkeleton: {fileID: 8451072485693965793, guid: d27f0526a4b56a94d866991b12312608, type: 3}
+  skeletonInterval: 10
+  skeletonCount: 5
+  ArmorSkeletonInterval: 20
+  armoredCount: 2
+  randomInterval: 1
 --- !u!1001 &2138420339105519342
 PrefabInstance:
   m_ObjectHideFlags: 0
