@@ -10,24 +10,23 @@ public class Door_Behavior : MonoBehaviour
     private Canvas OpenDoor;
     public Key_Behavior PickedUp;
     public int NextLevel;
+    private bool EnterAllowed;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (PickedUp == true)
         {
+            EnterAllowed = true;
             Debug.Log("true");
             if (collision.gameObject.tag.Equals("Player"))
             {
                 OpenDoor.gameObject.SetActive(true);
-                if (Input.GetKeyDown(KeyCode.F))
-                {
-                    NextLevel = '3';
-                }
             }
 
         }
         else if (PickedUp == false)
         {
+            EnterAllowed = false;
             if (collision.gameObject.tag.Equals("Player"))
             {
                 OpenDoor.gameObject.SetActive(false);
@@ -41,10 +40,22 @@ public class Door_Behavior : MonoBehaviour
         {
             if (collision.gameObject.tag.Equals("Player"))
             {
+                EnterAllowed = false;
                 OpenDoor.gameObject.SetActive(false);
                 
             }
         }
     }
+<<<<<<< Updated upstream
     
+=======
+    private void Update()
+    {
+        if (EnterAllowed == true && Input.GetKeyDown(KeyCode.F))
+        {
+            Debug.Log("yea");
+            SceneManager.LoadScene(NextLevel);
+        }
+    }
+>>>>>>> Stashed changes
 }
