@@ -1,22 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DeathScreen : MonoBehaviour
 {
-    public GameObject Canvas;
-    public int currentHealth;
-
-    void Start()
+    public Canvas Death;
+    private Character Health;
+    private int health;
+    private void Start()
     {
-        Canvas.gameObject.SetActive(false);
+        Health = GetComponent<Character>();
     }
-
-    void Update()
+    private void Update()
     {
-        if (currentHealth == 0)
+        health = Health.currentHealth;
+        death();
+    }
+    private void death()
+    {
+        if (health == 0)
         {
-
+            Death.gameObject.SetActive(true);
         }
     }
 }
