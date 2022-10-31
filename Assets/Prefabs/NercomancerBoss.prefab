@@ -509,6 +509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawner: {fileID: 8451072485693965805}
+<<<<<<< Updated upstream
   Item: {fileID: 5860880001425730500, guid: 37d991e4afb53934ba5d049924dc4ccb, type: 3}
 --- !u!114 &6161064341203855103
 MonoBehaviour:
@@ -529,6 +530,9 @@ MonoBehaviour:
   ArmorSkeletonInterval: 20
   armoredCount: 2
   randomInterval: 1
+=======
+  Item: {fileID: 0}
+>>>>>>> Stashed changes
 --- !u!1001 &2138420339105519342
 PrefabInstance:
   m_ObjectHideFlags: 0
