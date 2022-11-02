@@ -21,6 +21,9 @@ public class Key_Behavior : MonoBehaviour
             {
                 image.enabled = true;
             }
+        } else
+        {
+            PickedUp = false;
         }
     }
 

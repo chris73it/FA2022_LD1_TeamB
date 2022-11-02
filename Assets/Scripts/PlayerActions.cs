@@ -82,7 +82,7 @@ public class PlayerActions : MonoBehaviour
 
             GameObject projectile = (GameObject)GameObject.Instantiate(projectilePrefab, gunTip.position, projectileRotation);
             projectile.GetComponent<Projectile>().Setup(shootThis.damage, shootThis.bulletSpeed, shootThis.speedFallOff, shootThis.projectileSprite, this.gameObject.name, this.gameObject.layer);
-            Debug.Log(this.gameObject);
+            // Debug.Log(this.gameObject);
         }
         //muzzleFlash.intensity = 2.5f;
         //Cam.Shake((transform.position - gunTip.position).normalized, 1.5f, 0.05f); //call camera shake for recoil

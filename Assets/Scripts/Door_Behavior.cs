@@ -11,9 +11,16 @@ public class Door_Behavior : MonoBehaviour
     public Key_Behavior PickedUp;
     public int NextLevel;
     private bool EnterAllowed;
+    private bool Pick;
+
+    private void Start()
+    {
+        Pick = PickedUp;
+        Pick = false;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (PickedUp == true)
+        if (Pick == true)
         {
             EnterAllowed = true;
             Debug.Log("true");
@@ -24,7 +31,7 @@ public class Door_Behavior : MonoBehaviour
             }
 
         }
-        else if (PickedUp == false)
+        else if (Pick == false)
         {
             EnterAllowed = false;
             if (collision.gameObject.tag.Equals("Player"))
@@ -36,7 +43,7 @@ public class Door_Behavior : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (PickedUp == true)
+        if (Pick == true)
         {
             EnterAllowed = false;
             if (collision.gameObject.tag.Equals("Player"))
@@ -48,6 +55,10 @@ public class Door_Behavior : MonoBehaviour
     }
     private void Update()
     {
+        if (Pick == true)
+        {
+            Debug.Log("true");
+        }
         if (EnterAllowed == true && Input.GetKeyDown(KeyCode.F))
         {
             Debug.Log("yea");
