@@ -90,7 +90,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2995798995134910636}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.5, y: 0.5, z: 0}
+  m_LocalPosition: {x: 7.5, y: 0.5, z: -1}
   m_LocalScale: {x: 0.5, y: 0.5, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -165,7 +165,9 @@ MonoBehaviour:
   skeleton: {fileID: 8451072485693965793, guid: a3b8b2c2670e21640bb3bd757564e7c2, type: 3}
   ArmorSkeleton: {fileID: 8451072485693965793, guid: d27f0526a4b56a94d866991b12312608, type: 3}
   skeletonInterval: 3.5
+  skeletonCount: 1
   ArmorSkeletonInterval: 10
+  armoredCount: 1
   randomInterval: 1
 --- !u!114 &906055838493159542
 MonoBehaviour:
@@ -183,6 +185,8 @@ MonoBehaviour:
   speed: 0
   currentHealth: 0
   healthBar: {fileID: 7480827373251982226}
+  xpBar: {fileID: 0}
+  dropItem: {fileID: 0}
   type: 2
 --- !u!114 &3207122691306633364
 MonoBehaviour:
