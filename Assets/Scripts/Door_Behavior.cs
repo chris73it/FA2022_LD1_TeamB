@@ -6,58 +6,48 @@ using UnityEngine.SceneManagement;
 
 public class Door_Behavior : MonoBehaviour
 {
+
+    public InputManager input;
+
     [SerializeField]
     private Canvas OpenDoor;
     public int NextLevel;
     private bool EnterAllowed;
 
-    
-    private void OnTriggerEnter2D(Collider2D collision)
+    public Text doorText;
+
+
+    void OnTriggerStay2D(Collider2D collision)
     {
-        if (GameObject.Find("Key_Image").GetComponent<Key_Behavior>().PickedUp == true)
+        if (collision.gameObject.tag.Equals("Player"))
         {
-            EnterAllowed = true;
-            //Debug.Log("true");
-            if (collision.gameObject.tag.Equals("Player"))
+            OpenDoor.gameObject.SetActive(true);
+            Character player = collision.GetComponent<Character>();
+            
+            if (player.hasKey)
             {
-                OpenDoor.gameObject.SetActive(true);
-                
+                doorText.text = "Press 'F' to open door";
+                if (input.pickup)
+                {
+                    SceneManager.LoadScene(NextLevel);
+                }
+            }
+            else
+            {
+                doorText.text = "No. Go find the key";
             }
 
-        }
-        else if (GameObject.Find("Key_Image").GetComponent<Key_Behavior>().PickedUp == false)
-        {
-            EnterAllowed = false;
-            if (collision.gameObject.tag.Equals("Player"))
-            {
-                OpenDoor.gameObject.SetActive(false);
-                
-            }
+            
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (GameObject.Find("Key_Image").GetComponent<Key_Behavior>() == true)
-        {
-            EnterAllowed = false;
-            if (collision.gameObject.tag.Equals("Player"))
-            {
-                OpenDoor.gameObject.SetActive(false);
-                
-            }
-        }
-    }
-    private void Update()
-    {
 
-        if (GameObject.Find("Key_Image").GetComponent<Image>() == true)
+        //EnterAllowed = false;
+        if (collision.gameObject.tag.Equals("Player"))
         {
-            //Debug.Log("true");
-        }
-        if (EnterAllowed == true && Input.GetKeyDown(KeyCode.F))
-        {
-            Debug.Log("yea");
-            SceneManager.LoadScene(NextLevel);
+            OpenDoor.gameObject.SetActive(false);
+                
         }
     }
 }

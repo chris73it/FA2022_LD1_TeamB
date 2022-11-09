@@ -651,7 +651,6 @@ GameObject:
   - component: {fileID: 4987048170096575185}
   - component: {fileID: 4987048170096575184}
   - component: {fileID: 4987048170096575187}
-  - component: {fileID: 4987048170096575197}
   - component: {fileID: 4987048170096575196}
   - component: {fileID: 4987048170096575186}
   - component: {fileID: 4987048170096575198}
@@ -756,26 +755,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &4987048170096575197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4987048170096575191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dcaa7343533e6d46ae49e3d13e850d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enabled: 1
-  mouseLeft: 0
-  mouseRight: 0
-  reload: 0
-  pause: 0
-  pickup: 0
-  horizontal: 0
-  vertical: 0
 --- !u!114 &4987048170096575196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -809,7 +788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 378716ee1a8f7714fa77a9cc627d62d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: {fileID: 4987048170096575197}
+  input: {fileID: 0}
   player: {fileID: 4987048170096575196}
 --- !u!114 &4987048170096575198
 MonoBehaviour:
@@ -823,7 +802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a5127ecdbac37a47b516cfd79b442a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: {fileID: 4987048170096575197}
+  input: {fileID: 0}
   Canvas: {fileID: 0}
 --- !u!114 &2584736952157216466
 MonoBehaviour:
@@ -837,7 +816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a253c1d345b0f0b4789a29c0c128d628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: {fileID: 4987048170096575197}
+  input: {fileID: 0}
   reloadScript: {fileID: 831239217883307790}
   activeItem: {fileID: 11400000, guid: dffc43e1bf5c9da43b9d41b44394e558, type: 2}
   projectilePrefab: {fileID: 8265251321468653323, guid: 8b34d9523913d734ab7f16d08769e59b, type: 3}

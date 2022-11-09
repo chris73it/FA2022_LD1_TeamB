@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Key_Behavior : MonoBehaviour
 {
+
+    public InputManager input;
     [SerializeField]
     private Canvas pickUpText;
     public Image image;
@@ -19,25 +21,15 @@ public class Key_Behavior : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collision)
     {
-        Character player = collision.GetComponent<Character>();
-
-        if (player != null)
+        if (collision.gameObject.tag.Equals("Player"))
         {
-            //Debug.Log("Found player");
             pickUpText.gameObject.SetActive(true);
 
-            InputManager input = collision.GetComponent<InputManager>();
-
-            if (input != null)
+            if (input.pickup)
             {
-                //Debug.Log("Input Manager found");
-                //if (input.pickup)
-                //{
-                    Debug.Log("Picking up key");
-                    player.getkey();
-                    Destroy(gameObject);
-
-               // }
+                Debug.Log("Picking up key");
+                collision.GetComponent<Character>().getkey();
+                Destroy(gameObject);
 
             }
         }
