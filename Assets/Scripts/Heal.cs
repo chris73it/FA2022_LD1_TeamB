@@ -6,16 +6,18 @@ public class Heal : MonoBehaviour {
 
     private Rigidbody2D rb;
     [SerializeField]
-    Character health;
+    private Character health;
+    private int currenthealth;
     public Health_Bar Health_Bar;
-    static int Health;
+    int Health;
     public int heal;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        health = Character.
-        if (Health = 10)
+        health = GetComponent<Character>();
+        currenthealth = Health.currentHealth;
+        if (Health == 10)
         {
             Debug.Log("broke");
         }
@@ -32,7 +34,7 @@ public class Heal : MonoBehaviour {
     }
     void HealDamage()
     {
-        Health = Health + heal;
+        Health = health + heal;
         Health_Bar.SetHealth(Health);
     }
 }
