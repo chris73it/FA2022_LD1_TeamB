@@ -5,9 +5,8 @@ using UnityEngine;
 public class Heal : MonoBehaviour { 
 
     private Rigidbody2D rb;
-    [SerializeField]
-    private Character health;
-    private int currenthealth;
+    public int currentHealth;
+    public int maxHealth;
     public Health_Bar Health_Bar;
     int Health;
     public int heal;
@@ -15,9 +14,9 @@ public class Heal : MonoBehaviour {
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        health = GetComponent<Character>();
-        currenthealth = Health.currentHealth;
-        if (Health == 10)
+        currentHealth = GameObject.Find("Player").GetComponent<Character>().currentHealth;
+        maxHealth = GameObject.Find("Player").GetComponent<Character>().maxHealth;
+        if (currentHealth == 10)
         {
             Debug.Log("broke");
         }
@@ -34,7 +33,12 @@ public class Heal : MonoBehaviour {
     }
     void HealDamage()
     {
-        Health = health + heal;
+        GameObject.Find("Player").GetComponent<Character>().currentHealth += heal;
+        if (GameObject.Find("Player").GetComponent<Character>().currentHealth > maxHealth)
+        {
+            GameObject.Find("Player").GetComponent<Character>().currentHealth = maxHealth;
+        }
+        Health = GameObject.Find("Player").GetComponent<Character>().currentHealth;
         Health_Bar.SetHealth(Health);
     }
 }
