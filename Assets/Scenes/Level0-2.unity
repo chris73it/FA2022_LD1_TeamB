@@ -43717,6 +43717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExitDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 1649465607532944754, guid: 4ca372d6aeff97743b0f10c95f7aa26c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4832939267413408572, guid: 4ca372d6aeff97743b0f10c95f7aa26c, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -43768,7 +43772,7 @@ PrefabInstance:
     - target: {fileID: 5274803863175553223, guid: 4ca372d6aeff97743b0f10c95f7aa26c, type: 3}
       propertyPath: PickedUp
       value: 
-      objectReference: {fileID: 1419707518}
+      objectReference: {fileID: 0}
     - target: {fileID: 5274803863175553223, guid: 4ca372d6aeff97743b0f10c95f7aa26c, type: 3}
       propertyPath: NextLevel
       value: 3
@@ -44395,24 +44399,13 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1409418356}
   m_CullTransparentMesh: 1
---- !u!114 &1419707518 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 439070965850625294, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
-  m_PrefabInstance: {fileID: 1604717505}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bd4c37d7e2eced4c857ce6f7f9af602, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1419707519 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2619346165562731534, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
   m_PrefabInstance: {fileID: 1604717505}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -45047,7 +45040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2619346165562731534, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4314845176584331896, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
       propertyPath: m_IsActive
@@ -45119,7 +45112,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7118582595526798800, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7257712294966345255, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
       propertyPath: m_AnchorMax.y

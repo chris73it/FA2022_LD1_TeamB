@@ -14,25 +14,32 @@ public class Key_Behavior : MonoBehaviour
 
     private void Update()
     {
-        if (pickUpAllowed && Input.GetKeyDown(KeyCode.F))
-        {
-            PickUp();
-            if (PickedUp == true)
-            {
-                image.enabled = true;
-            }
-        } else
-        {
-            PickedUp = false;
-        }
+        
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.tag.Equals("Player"))
+        Character player = collision.GetComponent<Character>();
+
+        if (player != null)
         {
+            //Debug.Log("Found player");
             pickUpText.gameObject.SetActive(true);
-            pickUpAllowed = true;
+
+            InputManager input = collision.GetComponent<InputManager>();
+
+            if (input != null)
+            {
+                //Debug.Log("Input Manager found");
+                //if (input.pickup)
+                //{
+                    Debug.Log("Picking up key");
+                    player.getkey();
+                    Destroy(gameObject);
+
+               // }
+
+            }
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -40,14 +47,7 @@ public class Key_Behavior : MonoBehaviour
         if (collision.gameObject.tag.Equals("Player"))
         {
             pickUpText.gameObject.SetActive(false);
-            pickUpAllowed = false;
+            //pickUpAllowed = false;
         }
-    }
-
-    private void PickUp()
-    {
-        Debug.Log("pickedup");
-        PickedUp = true;
-        Destroy(gameObject);
     }
 }

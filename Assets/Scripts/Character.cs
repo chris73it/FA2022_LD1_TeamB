@@ -13,20 +13,25 @@ public class Character : MonoBehaviour
     public Health_Bar healthBar;
     public XP_Bar xpBar;
     public SpawnItems dropItem;
+    public GameObject keyImage;
 
     public CharacterType type;
 
     private bool disabled = false;
+    public bool hasKey = false;
 
     void Start()
     {
-
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
 
         if (type != CharacterType.Player)
         {
             healthBar.SetHealth(0);
+        }
+        else
+        {
+            keyImage.SetActive(false);
         }
     }
     void Update()
@@ -40,6 +45,15 @@ public class Character : MonoBehaviour
             TakeDamage(2);
         }
     }
+    public void getkey()
+    {
+        if (type == CharacterType.Player)
+        {
+            hasKey = true;
+            keyImage.SetActive(true);
+        }
+    }
+
     void TakeDamage(int damage)
     {
         currentHealth -= damage;

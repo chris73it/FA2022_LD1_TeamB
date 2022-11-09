@@ -17,7 +17,7 @@ public class Door_Behavior : MonoBehaviour
         if (GameObject.Find("Key_Image").GetComponent<Key_Behavior>().PickedUp == true)
         {
             EnterAllowed = true;
-            Debug.Log("true");
+            //Debug.Log("true");
             if (collision.gameObject.tag.Equals("Player"))
             {
                 OpenDoor.gameObject.SetActive(true);
@@ -52,7 +52,7 @@ public class Door_Behavior : MonoBehaviour
 
         if (GameObject.Find("Key_Image").GetComponent<Image>() == true)
         {
-            Debug.Log("true");
+            //Debug.Log("true");
         }
         if (EnterAllowed == true && Input.GetKeyDown(KeyCode.F))
         {
