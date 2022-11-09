@@ -8,14 +8,13 @@ public class Door_Behavior : MonoBehaviour
 {
     [SerializeField]
     private Canvas OpenDoor;
-    public Key_Behavior PickedUp;
     public int NextLevel;
     private bool EnterAllowed;
 
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (PickedUp == true)
+        if (GameObject.Find("Key_Image").GetComponent<Key_Behavior>().PickedUp == true)
         {
             EnterAllowed = true;
             Debug.Log("true");
@@ -26,7 +25,7 @@ public class Door_Behavior : MonoBehaviour
             }
 
         }
-        else if (PickedUp == false)
+        else if (GameObject.Find("Key_Image").GetComponent<Key_Behavior>().PickedUp == false)
         {
             EnterAllowed = false;
             if (collision.gameObject.tag.Equals("Player"))
@@ -38,7 +37,7 @@ public class Door_Behavior : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (PickedUp == true)
+        if (GameObject.Find("Key_Image").GetComponent<Key_Behavior>() == true)
         {
             EnterAllowed = false;
             if (collision.gameObject.tag.Equals("Player"))
@@ -51,9 +50,9 @@ public class Door_Behavior : MonoBehaviour
     private void Update()
     {
 
-        if (PickedUp == true)
+        if (GameObject.Find("Key_Image").GetComponent<Image>() == true)
         {
-            // Debug.Log("true");
+            Debug.Log("true");
         }
         if (EnterAllowed == true && Input.GetKeyDown(KeyCode.F))
         {
