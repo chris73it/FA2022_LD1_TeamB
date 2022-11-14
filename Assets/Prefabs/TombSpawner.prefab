@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skeleton: {fileID: 8451072485693965793, guid: a3b8b2c2670e21640bb3bd757564e7c2, type: 3}
-  ArmorSkeleton: {fileID: 8451072485693965793, guid: d27f0526a4b56a94d866991b12312608, type: 3}
+  ArmorSkeleton: {fileID: 8451072485693965793, guid: 47aff65ea53a005459313a7632cd88ab, type: 3}
   skeletonInterval: 3.5
   skeletonCount: 1
   ArmorSkeletonInterval: 10
@@ -187,7 +187,9 @@ MonoBehaviour:
   healthBar: {fileID: 7480827373251982226}
   xpBar: {fileID: 0}
   dropItem: {fileID: 0}
+  keyImage: {fileID: 0}
   type: 2
+  hasKey: 0
 --- !u!114 &3207122691306633364
 MonoBehaviour:
   m_ObjectHideFlags: 0
