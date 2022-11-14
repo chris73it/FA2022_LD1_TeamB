@@ -18,7 +18,7 @@ public class Heal : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision) 
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.tag == "Player")
         {
             HealDamage();
             Debug.Log("Healed");
@@ -30,9 +30,10 @@ public class Heal : MonoBehaviour {
         GameObject.Find("Player").GetComponent<Character>().currentHealth += heal;
         if (GameObject.Find("Player").GetComponent<Character>().currentHealth > maxHealth)
         {
-            GameObject.Find("Player").GetComponent<Character>().currentHealth = maxHealth;
+            GameObject.Find("Player").GetComponent<Character>().TakeDamage(-heal);
+            //GameObject.Find("Player").GetComponent<Character>().currentHealth = maxHealth;
         }
-        Health = GameObject.Find("Player").GetComponent<Character>().currentHealth;
-        Health_Bar.SetHealth(Health);
+        //Health = GameObject.Find("Player").GetComponent<Character>().currentHealth;
+        //Health_Bar.SetHealth(Health);
     }
 }
