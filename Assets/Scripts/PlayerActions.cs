@@ -8,6 +8,7 @@ public class PlayerActions : MonoBehaviour
     public AmmoAndReload reloadScript;
     public Gun activeItem;
     public GameObject projectilePrefab, melee;
+    public Animator anim;
 
     public Transform weaponTransform, gunTip;
 
