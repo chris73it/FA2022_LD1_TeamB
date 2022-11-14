@@ -284,6 +284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bd4c37d7e2eced4c857ce6f7f9af602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  input: {fileID: 2153469492583048379, guid: 78bedab06eea0bb4e93612b6cd309566, type: 3}
   pickUpText: {fileID: 8744083335828900982}
   image: {fileID: 0}
   PickedUp: 0

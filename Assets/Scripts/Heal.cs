@@ -33,6 +33,7 @@ public class Heal : MonoBehaviour {
             GameObject.Find("Player").GetComponent<Character>().currentHealth = maxHealth;
         }
         Health = GameObject.Find("Player").GetComponent<Character>().currentHealth;
+        // Health_Bar = GameObject.Find(name: "Health Bar");
         Health_Bar.SetHealth(Health);
     }
 }
