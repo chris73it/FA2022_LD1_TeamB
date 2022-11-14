@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 7761527075088477928}
   - component: {fileID: 8451072485693965802}
   - component: {fileID: 8451072485693965803}
+  - component: {fileID: 4802434593461986682}
   m_Layer: 0
   m_Name: Skeleton
   m_TagString: enemy
@@ -169,7 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   stat: {fileID: 8451072485693965805}
-  distanceBetween: 50
+  distanceBetween: 75
   distance: 0
 --- !u!114 &8451072485693965805
 MonoBehaviour:
@@ -184,7 +185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 30
-  speed: 7
+  speed: 15
   currentHealth: 0
   healthBar: {fileID: 8712070390344949734}
   xpBar: {fileID: 0}
@@ -258,6 +259,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4802434593461986682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8451072485693965793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a240b8f5b9d198a4d8a92a389515b263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawner: {fileID: 8451072485693965805}
+  Item: {fileID: 0}
+  Drop: {fileID: 7517585994620587379, guid: 98488b014067f8744aab41ae43a45d03, type: 3}
 --- !u!1001 &3101469695066074847
 PrefabInstance:
   m_ObjectHideFlags: 0
