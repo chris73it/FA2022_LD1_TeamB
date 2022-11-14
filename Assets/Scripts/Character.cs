@@ -44,6 +44,11 @@ public class Character : MonoBehaviour
         {
             TakeDamage(2);
         }
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            //thanos snap
+            TakeDamage(20);
+        }
     }
     public void getkey()
     {
@@ -57,6 +62,11 @@ public class Character : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
+    }
+    public void Heal(int health)
+    {
+        currentHealth += health;
         healthBar.SetHealth(currentHealth);
     }
 

@@ -27,13 +27,16 @@ public class Heal : MonoBehaviour {
     }
     void HealDamage()
     {
-        GameObject.Find("Player").GetComponent<Character>().currentHealth += heal;
-        if (GameObject.Find("Player").GetComponent<Character>().currentHealth > maxHealth)
+        if (GameObject.Find("Player").GetComponent<Character>().currentHealth < maxHealth)
         {
-            GameObject.Find("Player").GetComponent<Character>().TakeDamage(-heal);
-            //GameObject.Find("Player").GetComponent<Character>().currentHealth = maxHealth;
+            int amount = heal;
+            int difference = maxHealth - GameObject.Find("Player").GetComponent<Character>().currentHealth;
+            if (heal > difference)
+            {
+                amount = difference;
+            }
+            GameObject.Find("Player").GetComponent<Character>().Heal(amount);
         }
-        //Health = GameObject.Find("Player").GetComponent<Character>().currentHealth;
-        //Health_Bar.SetHealth(Health);
+
     }
 }
