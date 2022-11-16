@@ -122,7 +122,7 @@ public class Character : MonoBehaviour
 
     void disablePlayer()
     {
-        this.GetComponent<SpriteRenderer>().enabled = false;
+        this.GetComponent<SpriteRenderer>().enabled = false; // broken
         this.GetComponent<InputManager>().enabled = false;
         GameObject.Find("Arm").SetActive(false);
         disabled = true;
