@@ -9,7 +9,6 @@ public class Key_Behavior : MonoBehaviour
     public InputManager input;
     [SerializeField]
     private Canvas pickUpText;
-    public Image image;
 
     public bool PickedUp;
     private bool pickUpAllowed;

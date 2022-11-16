@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class BookofLore : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public InputManager input;
+    [SerializeField]
+    private Canvas pickUpText;
 
-    // Update is called once per frame
-    void Update()
+    public bool PickedUp;
+
+    void OnTriggerStay2D(Collider2D collision)
     {
-        
+        if (collision.gameObject.tag.Equals("Player"))
+        {
+            pickUpText.gameObject.SetActive(true);
+
+            if (input.pickup)
+            {
+                Debug.Log("Picking up key");
+                collision.GetComponent<Character>().getkey();
+                Destroy(gameObject);
+
+            }
+        }
     }
 }
