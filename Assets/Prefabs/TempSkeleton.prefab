@@ -426,7 +426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 30
   speed: 15
-  currentHealth: 0
+  currentHealth: 30
   healthBar: {fileID: 1535078738204605018}
   xpBar: {fileID: 0}
   dropItem: {fileID: 0}

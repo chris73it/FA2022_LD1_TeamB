@@ -72,8 +72,10 @@ public class Character : MonoBehaviour
 
     void MrStarkIDontFeelSoGood()
     {
+        Debug.Log("do");
         if (dropItem != null)
         {
+            Debug.Log("Doit");
             dropItem.doIt();
             dropItem.dropchance();
         }
