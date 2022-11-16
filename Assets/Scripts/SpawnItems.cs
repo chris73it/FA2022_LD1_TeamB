@@ -21,11 +21,11 @@ public class SpawnItems : MonoBehaviour
 
     public void dropchance()
     {
-       // if (Random.Range(0f, 1f) <= m_dropChance)
-      //  {
+       if (Random.Range(0f, 1f) <= m_dropChance)
+      {
             Vector3 spawnPos = this.transform.position;
             GameObject newItem = Instantiate(Drop, spawnPos, Quaternion.identity);
-       // }
+       }
     }
     
 }
