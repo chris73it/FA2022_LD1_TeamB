@@ -6,8 +6,6 @@ public class Heal : MonoBehaviour {
 
     private Rigidbody2D rb;
     public int maxHealth;
-    public Health_Bar Health_Bar;
-    int Health;
     public int heal;
 
     private void Start()

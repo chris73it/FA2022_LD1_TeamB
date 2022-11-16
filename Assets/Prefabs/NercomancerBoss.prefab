@@ -386,7 +386,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8451072485693965793}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -425,7 +425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 1000
-  speed: 2
+  speed: 5
   currentHealth: 0
   healthBar: {fileID: 1535078738204605018}
   xpBar: {fileID: 0}
@@ -514,7 +514,6 @@ MonoBehaviour:
   spawner: {fileID: 8451072485693965805}
   Item: {fileID: 5860880001425730500, guid: 37d991e4afb53934ba5d049924dc4ccb, type: 3}
   Drop: {fileID: 7517585994620587379, guid: 98488b014067f8744aab41ae43a45d03, type: 3}
-  m_dropChance: 0.1
 --- !u!114 &6161064341203855103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -528,7 +527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skeleton: {fileID: 8451072485693965793, guid: a3b8b2c2670e21640bb3bd757564e7c2, type: 3}
-  ArmorSkeleton: {fileID: 8451072485693965793, guid: d27f0526a4b56a94d866991b12312608, type: 3}
+  ArmorSkeleton: {fileID: 8451072485693965793, guid: 47aff65ea53a005459313a7632cd88ab, type: 3}
   skeletonInterval: 10
   skeletonCount: 5
   ArmorSkeletonInterval: 20

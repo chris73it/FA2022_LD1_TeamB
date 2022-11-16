@@ -75,10 +75,7 @@ public class Character : MonoBehaviour
         if (dropItem != null)
         {
             dropItem.doIt();
-            if (dropItem != null)
-            {
-                dropItem.dropchance();
-            }
+            dropItem.dropchance();
         }
 
         if (type == CharacterType.Player)
