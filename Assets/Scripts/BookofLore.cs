@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BookofLore : MonoBehaviour
 {
     private InputManager input;
     [SerializeField]
     private GameObject pickUpText;
-
+    public SceneManager Level;
     public bool PickedUp;
 
     private void Start()
@@ -24,6 +25,7 @@ public class BookofLore : MonoBehaviour
             {
                 Debug.Log("Picking up book");
                 gameObject.SetActive(false);
+                PickedUp = true;
 
             }
         }
@@ -33,6 +35,13 @@ public class BookofLore : MonoBehaviour
         if (collision.gameObject.tag.Equals("Player"))
         {
             pickUpText.gameObject.SetActive(false);
+        }
+    }
+    private void Update()
+    {
+            if (PickedUp == true)
+        {
+
         }
     }
 }
