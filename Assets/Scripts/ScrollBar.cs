@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class ScrollBar : MonoBehaviour
 {
     public TextMeshProUGUI Lore;
-
+    public GameObject bar;
     private ScrollBar scroll;
 
     void Start()
@@ -17,6 +17,6 @@ public class ScrollBar : MonoBehaviour
 
     public void Update()
     {
-        
+        bar.gameObject
     }
 }
