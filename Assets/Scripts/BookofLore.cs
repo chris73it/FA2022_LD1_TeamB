@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class BookofLore : MonoBehaviour
 {
-    public InputManager input;
+    private InputManager input;
     [SerializeField]
-    private Canvas pickUpText;
+    private GameObject pickUpText;
 
     public bool PickedUp;
 
+    private void Start()
+    {
+        input = (InputManager)FindObjectOfType(typeof(InputManager));
+    }
     void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.tag.Equals("Player"))
@@ -18,9 +22,8 @@ public class BookofLore : MonoBehaviour
 
             if (input.pickup)
             {
-                Debug.Log("Picking up key");
-                collision.GetComponent<Character>().getkey();
-                Destroy(gameObject);
+                Debug.Log("Picking up book");
+                gameObject.SetActive(false);
 
             }
         }

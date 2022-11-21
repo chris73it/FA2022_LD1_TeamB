@@ -11,7 +11,6 @@ public class Key_Behavior : MonoBehaviour
     private GameObject pickUpText;
 
     public bool PickedUp;
-    private bool pickUpAllowed;
 
     private void Start()
     {
@@ -38,7 +37,6 @@ public class Key_Behavior : MonoBehaviour
         if (collision.gameObject.tag.Equals("Player"))
         {
             pickUpText.SetActive(false);
-            //pickUpAllowed = false;
         }
     }
 }
