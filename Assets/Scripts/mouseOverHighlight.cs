@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class mouseOverHighlight : MonoBehaviour
 {
+
+    //this whole script does stuff it doesn't need to, but it works :shrug:
+
     public Color startColor, mouseOverColor;
     public Renderer planeRenderer;
 
