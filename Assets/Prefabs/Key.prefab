@@ -264,7 +264,7 @@ Transform:
   m_GameObject: {fileID: 5860880001425730500}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 8, y: 8, z: 1}
+  m_LocalScale: {x: 13, y: 13, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8125037355145444517}
@@ -284,9 +284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bd4c37d7e2eced4c857ce6f7f9af602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: {fileID: 2153469492583048379, guid: 78bedab06eea0bb4e93612b6cd309566, type: 3}
-  pickUpText: {fileID: 8744083335828900982}
-  image: {fileID: 0}
+  pickUpText: {fileID: 4331112462434912864}
   PickedUp: 0
 --- !u!61 &7013708307768301933
 BoxCollider2D:

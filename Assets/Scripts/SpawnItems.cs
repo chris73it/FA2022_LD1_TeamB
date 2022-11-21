@@ -15,17 +15,23 @@ public class SpawnItems : MonoBehaviour
 
     public void doIt()
     {
-        Vector3 spawnPos = this.transform.position;
-        GameObject newItem = Instantiate(Item, spawnPos, Quaternion.identity);
+        if (Item != null)
+        {
+            Vector3 spawnPos = this.transform.position;
+            GameObject newItem = Instantiate(Item, spawnPos, Quaternion.identity);
+        }
     }
 
     public void dropchance()
     {
-       if (Random.Range(0f, 1f) <= m_dropChance)
-      {
-            Vector3 spawnPos = this.transform.position;
-            GameObject newItem = Instantiate(Drop, spawnPos, Quaternion.identity);
-       }
+        if (Drop != null)
+        {
+            if (Random.Range(0f, 1f) <= m_dropChance)
+            {
+                Vector3 spawnPos = this.transform.position;
+                GameObject newItem = Instantiate(Drop, spawnPos, Quaternion.identity);
+            }
+        }
     }
     
 }

@@ -6,23 +6,23 @@ using UnityEngine.UI;
 public class Key_Behavior : MonoBehaviour
 {
 
-    public InputManager input;
+    private InputManager input;
     [SerializeField]
-    private Canvas pickUpText;
+    private GameObject pickUpText;
 
     public bool PickedUp;
     private bool pickUpAllowed;
 
-    private void Update()
+    private void Start()
     {
-        
+        input = (InputManager)FindObjectOfType(typeof(InputManager));
     }
 
     void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.tag.Equals("Player"))
         {
-            pickUpText.gameObject.SetActive(true);
+            pickUpText.SetActive(true);
 
             if (input.pickup)
             {
@@ -37,7 +37,7 @@ public class Key_Behavior : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Player"))
         {
-            pickUpText.gameObject.SetActive(false);
+            pickUpText.SetActive(false);
             //pickUpAllowed = false;
         }
     }

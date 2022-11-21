@@ -72,14 +72,6 @@ public class Character : MonoBehaviour
 
     void MrStarkIDontFeelSoGood()
     {
-        Debug.Log("do");
-        if (dropItem != null)
-        {
-            Debug.Log("Doit");
-            dropItem.doIt();
-            dropItem.dropchance();
-        }
-
         if (type == CharacterType.Player)
         {
             disablePlayer();
@@ -94,9 +86,14 @@ public class Character : MonoBehaviour
             }
             Destroy(this.gameObject);
         }
-        else
+        else //if is enemy
         {
             //death animation
+            if (dropItem != null)
+            {
+                dropItem.doIt();
+                dropItem.dropchance();
+            }
             Destroy(this.gameObject);
         }
     }
