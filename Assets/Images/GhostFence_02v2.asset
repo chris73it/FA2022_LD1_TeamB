@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GhostFence_01
+  m_Name: GhostFence_02v2
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 8cfd042b4e91ff247992d69187a5511e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 820d11d8ef1ff484598ba5ed01bcb91b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
