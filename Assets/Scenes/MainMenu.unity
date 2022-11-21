@@ -293,7 +293,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47, y: 150}
+  m_AnchoredPosition: {x: -47, y: 171}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &145426100
@@ -316,7 +316,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Book Of Lore
+  m_text: Book of Lore
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -590,17 +590,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 349790314}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1337364421}
+  m_Father: {fileID: 586359043}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -221.8, y: -51.6}
+  m_AnchoredPosition: {x: -36, y: -550}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &349790316
@@ -623,7 +623,44 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "As the heroes also silently mourn the death of Alban as a foe they respect,
+    they ponder as to who he meant when he said \u201Chim\u201D. They speculate it
+    might be the perpetrator responsible for the end of the world as we know it.
+    They tell each other they can figure it out later, and they need to get back
+    as soon as possible. They successfully make it out of Thal Nature Park, and they
+    cross the border into Austria. They tell each other that even though they are
+    almost to safety, the fight is going to get even harder than it has ever been,
+    because all the monsters have figured out for themselves that the heroes are
+    close to banishing them. The only exceptions are the werewolves of Alban\u2019s
+    pack. However, other werewolves from other, smaller packs are aligned with the
+    other horrors and creatures to stop the heroes.\r\n\r\nThe heroes decide to stop
+    wasting time and to go full-force offense at all the monsters and kill them until
+    there are no more standing. They fight them day and night, wave after wave of
+    them until there are no more left standing in their way. They fight until they
+    reach The Homerunner where they are relieved they are finally home at last. After
+    laying waste to all the monsters that have attacked them, they get inside the
+    hotel, and they check the place top to bottom, with the last place being their
+    garden. They get to the garden of the hotel, and they breathe a sigh of relief
+    that none of the monsters have gotten to the place. But then they feel an ominous
+    presence come over them, and it is a dark shadow, and the heroes speculate that
+    it must be \u201Chim\u201D as in the person Alban was referring to. The shadow
+    then creates a face, and to the heroes shock, it is a face they recognize.\r\n\r\nThey
+    recognize the face under the shadowy hood as their old friend, Adorjan Eros.
+    They look at Adorjan and they ask how this could have happened to him. He replies
+    to them that he was taken by the darkness after his death, and that he has been
+    given new life. Then he tells them that he wants revenge on his former friends
+    after they let him perish to the very forces he fights for now. They beg him
+    not to fight them, and they attempt to convey to him that they did in fact try
+    to save him. But he tells them it is too late, and that it is his time to destroy
+    them.\r\n\r\nThe heroes battle Adorjan and he gets the upper hand on them, but
+    they counterattack and push him back. They eventually have him at their mercy,
+    but he refuses to listen to reason and turn back to their side. He regains his
+    strength and begins fighting them again, and he attempts to use their own darkness
+    against them. But the heroes resist the darkness in their own hearts and kill
+    him successfully. After his death, his newly freed spirit gives them a blessing
+    to purify The Divine Treasures, then the heroes use them to instantaneously banish
+    the remaining monsters and cut their path of transition from their world to Planet
+    Earth.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1263,17 +1300,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496297939}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1337364421}
+  m_Father: {fileID: 586359043}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.1, y: 12}
+  m_AnchoredPosition: {x: -36, y: -550}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &496297941
@@ -1296,7 +1333,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "The day is April 19th, 1903, and our heroes are sitting around a campfire
+    at a cemetery in South Africa where they believe one of the keys they need to
+    save the world as well as save themselves is located. The heroes are: Andrew
+    Brooks, Anya Petrov, Sir Jonathan Doe, Pedro Al Mariachi, Michael Smith, and
+    Gunther Hermann.\r\n\r\nThey are sitting around a campfire at the moment reminiscing
+    about a time when the world wasn\u2019t overrun by horrors and monstrosities.
+    They are also discussing a plan to get back home to their hotel they have made
+    their home base at called \u201CThe Homerunner\u201D in Austria. These six heroes
+    need to brave the darkness of the new world, starting with the cemetery in order
+    to make sure that the darkness here is defeated, and that they are able to retrieve
+    multiple unique items which are able to not only get them back home, but also
+    save the world as well, which are called \u201CThe Divine Treasures\u201D.\r\n\nThe
+    divine treasures are as follows: The Soul Crystal, The Protective Shard, The
+    Feral Beast\u2019s Ferocity, The Authority over the Seas, and they need a magical
+    catalyst to amplify the power of these items in order to make sure that the monsters
+    all over the world are defeated. They decide as a whole that they will hopefully
+    find the catalyst on their way home, otherwise they will add it to their list
+    of magic ingredients they need.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1359,7 +1413,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0.003112793, w: 0}
+  m_margin: {x: 0, y: 0, z: -412.84576, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1398,17 +1452,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515286588}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1337364421}
+  m_Father: {fileID: 586359043}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.1, y: -38.1}
+  m_AnchoredPosition: {x: -36, y: -550}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &515286590
@@ -1431,7 +1485,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "The heroes begin their journey and they start by fighting their way out
+    of the cemetery they are in and out of the hordes of undead monsters. They fight
+    their way through the enemies leaving none standing in their path, until they
+    come upon the Necromancer. The Necromancer taunts them that if they want the
+    divine treasure he has so bad, then come get it. They then face the Necromancer
+    and retrieve \u201CThe Soul Crystal\u201D, the first of the divine treasures,
+    and upon his demise, his corpse deteriorates and rots quickly."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1644,6 +1704,141 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 539818811}
+  m_CullTransparentMesh: 1
+--- !u!1 &586359042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 586359043}
+  - component: {fileID: 586359046}
+  - component: {fileID: 586359045}
+  - component: {fileID: 586359044}
+  m_Layer: 5
+  m_Name: Scrollbar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &586359043
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586359042}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1699287170}
+  - {fileID: 496297940}
+  - {fileID: 515286589}
+  - {fileID: 1856614102}
+  - {fileID: 824988331}
+  - {fileID: 1354563682}
+  - {fileID: 828002184}
+  - {fileID: 349790315}
+  - {fileID: 1563920629}
+  m_Father: {fileID: 1337364421}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 320, y: 26}
+  m_SizeDelta: {x: 160, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &586359044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586359042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4db7a114972834c8e4117be1d82ba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1222743861}
+  m_HandleRect: {fileID: 1222743860}
+  m_Direction: 0
+  m_Value: 0
+  m_Size: 0.2
+  m_NumberOfSteps: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &586359045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586359042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &586359046
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586359042}
   m_CullTransparentMesh: 1
 --- !u!1 &587711400
 GameObject:
@@ -2080,17 +2275,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 824988330}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1337364421}
+  m_Father: {fileID: 586359043}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.1, y: -153.9}
+  m_AnchoredPosition: {x: -36, y: -550}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &824988332
@@ -2113,7 +2308,27 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "The heroes then decide that they must get on a boat and get back to Austria
+    and the Homerunner so they can get to work on the items they have recovered.
+    They head to the harbor and they find a 16th century battleship that although
+    appears to be old and worn, is still serviceable as far as usage due to the fact
+    that the battleship appears to be floating on the water. They board the battleship
+    and they start sailing for Italy, where they will cross through and into Switzerland
+    to get to Austria.\r\n\r\nAs they sail on the battleship, they start to see smaller
+    boats swarming them and they see that on the boats are zombified pirates, with
+    swords and bandanas and gold teeth, the whole stereotypical pirate kit. They
+    climb aboard, but everytime they do, they get shot off the ship or are destroyed,
+    eventually, after the heroes destroy enough of the pirates, the \u201Ctrue\u201D
+    captain of the ship appears in ethereal form and introduces himself as Pirate
+    Captain Blue Jack who he states that they are on his ship, and he is at one with
+    it in spirit. He also states that the zombified pirates they have been fighting
+    have been members of the ship\u2019s crew that have come and gone.\r\n\r\nThen
+    he says he is going to plunder their \u201Cbooty\u201D, and the heroes are puzzled
+    by that statement. He translates that as he is going to carve off a piece of
+    their rears. They respond by saying that isn\u2019t going to happen, then the
+    battle with him begins. They fight him and very soundly defeat him. As he fades,
+    he relinquishes ownership of the ship to the heroes, and he states that everyone\u2019s
+    time will come to them, and his time had finally come after five hundred years.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2215,17 +2430,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 828002183}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1337364421}
+  m_Father: {fileID: 586359043}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 200.9, y: -51.6}
+  m_AnchoredPosition: {x: -36, y: -550}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &828002185
@@ -2248,7 +2463,32 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "The heroes successfully traverse the Swiss Alps and they get to what used
+    to be Thal Nature Park in Switzerland. They note that they are almost to the
+    Switzerland-Austria border, and that they need to push just a little bit further.
+    They realize later on as they push further into the forest, the forest starts
+    to get foggier and foggier, until they see a figure that disappears back into
+    the fog. The fog then disappears  completely and the entire surrounding then
+    goes dark, but the heroes instinctually dodge what appears to be claws that are
+    swiping at them.\r\n\r\nWhen the darkness disappears, they see an anthropomorphic
+    canine-like creature covered head to toe in light gray fur, long curved claws
+    on its fingers and toes, long fangs coming from both the top and bottom of its
+    jaws, upward pointed ears, gold glowing eyes, and a long, canine-like snout standing
+    on the road in front of them. The creature then introduces himself as Alban,
+    as well as the leader of his pack here in Switzerland. He then tells the heroes
+    he has heard from \u201CHim\u201D about all their exploits, and that he is the
+    last one standing in front of them who can stop them. The heroes ask him and
+    his pack to stand down because he seems like a reasonable gentleman and they
+    don\u2019t want to kill him. Alban replies no and that he must see this though,
+    for himself and his pack.\r\n\r\nThe boss fight begins and Alban is proving himself
+    to be the strongest and most fearsome foe that the heroes have faced thus far,
+    and he has them on the ropes. But, like everyone else who came before, the heroes
+    defeat Alban. As Alban lays dying on the ground, he calls for one of his pack
+    commanders to  willingly give the heroes a wolf\u2019s head and tail, which are
+    revealed to be the two halves of \u201CThe Beast\u2019s Ferocity\u201D. With
+    it, they have the final two pieces of The Divine Treasures. Alban then willingly
+    takes his own life so he can be at peace with himself. The rest of his pack howls
+    in grief for their leader, and then disperse.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2480,7 +2720,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &851169804
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3241,6 +3481,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154293896}
   m_CullTransparentMesh: 1
+--- !u!1 &1222743859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1222743860}
+  - component: {fileID: 1222743862}
+  - component: {fileID: 1222743861}
+  m_Layer: 5
+  m_Name: Handle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1222743860
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222743859}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1699287170}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1222743861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222743859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1222743862
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222743859}
+  m_CullTransparentMesh: 1
 --- !u!1 &1237073339
 GameObject:
   m_ObjectHideFlags: 0
@@ -3482,14 +3798,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 496297940}
-  - {fileID: 515286589}
-  - {fileID: 1856614102}
-  - {fileID: 824988331}
-  - {fileID: 1354563682}
-  - {fileID: 828002184}
-  - {fileID: 349790315}
-  - {fileID: 1563920629}
+  - {fileID: 586359043}
   m_Father: {fileID: 851169804}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3555,7 +3864,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -3585,17 +3894,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1354563681}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1337364421}
+  m_Father: {fileID: 586359043}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.1, y: -204.2}
+  m_AnchoredPosition: {x: -36, y: -550}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1354563683
@@ -3618,7 +3927,35 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "They arrive in Italy with the ship still floating and intact, and they
+    begin going through the mountains and fighting their way through all the monsters
+    there, including a roost of goblins that they came across, and upon seeing human
+    skulls decorating it, the heroes decide that these goblins are too tricky and
+    sinister to be spared and they all agree to exterminate them. They travel throughout
+    the mountains and fire upon and kill any and all goblins on sight. They keep
+    fighting until they run into a cave with goblin skulls all over it, both strewn
+    about on the ground and hanging from ropes from the ceiling. They decide to enter
+    it and fight whatever is inside the cavern and destroy the source of the goblins.\r\n\r\nThey
+    fight their way through the goblins and other monsters in there and they eventually
+    run into \u201CThe Goblin Warlord\u201D. He comments on how the heroes have murdered
+    his children, and how he will have his vengeance. The heroes simply reply \u201CDo
+    your worst\u201D, and proceed to fight him. They eventually get the upper hand
+    and strike him and his elite guard down. They then find a catalyst for the magical
+    spell they need, and that catalyst is \u201CThe Goblin Contract\u201D. They use
+    it and they summon three goblins through the scroll, and upon doing so, they
+    realize that they do in fact have the catalyst for their spell to banish the
+    remaining monsters from the world.\r\n\r\nThe heroes then proceed to escape,
+    but not before agreeing to blow up the cave first and killing all the goblins
+    inside. They wander through the cave and fight more monsters (mostly goblins),
+    and they are in luck to find dynamite in the cave, and they search the cave some
+    more to find some metallic tubes that can be turned into pipe bombs. They also
+    find wood as well to fashion into barrels to hold the dynamite. \r\n\r\nThey
+    place them at sections of the cave, and they blow them up, and the heroes make
+    it out before the cave crumbles. Upon crumbling, the mountain that the cave is
+    a part of collapses with it, ensuring that all the monsters inside are dead.
+    With that, the heroes defeat another major opponent and are one step closer to
+    victory. The heroes continue to Switzerland so they can get to Austria and their
+    home there.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3981,8 +4318,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 798122feb38d9a445beb0870f3d5d913, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4158,17 +4495,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1563920628}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1337364421}
+  m_Father: {fileID: 586359043}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -218.4, y: -128}
+  m_AnchoredPosition: {x: 154.00012, y: -538.4}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1563920630
@@ -4191,7 +4528,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: Earth becomes a wild garden paradise as a result, but the heroes look at
+    it and accept it as a fitting reward, seeing as how they filled the world with
+    peace and light once again. It will take time for civilization to rebuild, hopefully
+    this time with more precautions in the way of the use of magic, then they set
+    to work on finding and rescuing the other human survivors on the planet.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4335,6 +4676,43 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1699287169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1699287170}
+  m_Layer: 5
+  m_Name: Sliding Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1699287170
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699287169}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1222743860}
+  m_Father: {fileID: 586359043}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -20, y: -20}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1740357242
 GameObject:
   m_ObjectHideFlags: 0
@@ -4705,17 +5083,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1856614101}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1337364421}
+  m_Father: {fileID: 586359043}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.1, y: -103}
+  m_AnchoredPosition: {x: -36, y: -550}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1856614103
@@ -4738,7 +5116,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "As they fight their way out of the cemetery, they come across a mausoleum
+    and they decide to enter it to make sure that if there is another divine treasure
+    in there, they would achieve it. They fight through the undead monsters in the
+    mausoleum and even a few novice necromancers, until they get to a being known
+    as \u201CThe Empty Shell\u201D, who is just a knight who died long ago and his
+    soul is bound to his armor. They fight him and defeat him and they manage to
+    retrieve their second divine treasure, \u201CThe Protection Shard\u201D, which
+    lets them be protected for a certain period of time. The ghost inside the armor
+    is free and he leaves for the afterlife, which the heroes hope is heaven. They
+    then get out of the Mausoleum as it collapses and crushes the remaining monsters
+    inside for the heroes."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
