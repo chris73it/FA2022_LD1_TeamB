@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class BookofLore : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class BookofLore : MonoBehaviour
     private GameObject pickUpText;
     public SceneManager Level;
     public bool PickedUp;
+    public GameObject Button;
+    private GameObject Book;
 
     private void Start()
     {
@@ -41,7 +44,11 @@ public class BookofLore : MonoBehaviour
     {
             if (PickedUp == true)
         {
-
+            AddLore();
         }
+    }
+    public void AddLore()
+    {
+        Button.gameObject.SetActive(true);
     }
 }
