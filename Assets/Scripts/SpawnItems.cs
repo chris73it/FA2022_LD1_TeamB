@@ -11,7 +11,7 @@ public class SpawnItems : MonoBehaviour
     private GameObject Item;
     [SerializeField]
     private GameObject Drop;
-    const float m_dropChance = 1f / 10f;
+    const float m_dropChance = 5f;
 
     public void doIt()
     {
@@ -26,7 +26,7 @@ public class SpawnItems : MonoBehaviour
     {
         if (Drop != null)
         {
-            if (Random.Range(0f, 1f) <= m_dropChance)
+            if (Random.Range(0f, 100f) <= m_dropChance)
             {
                 Vector3 spawnPos = this.transform.position;
                 GameObject newItem = Instantiate(Drop, spawnPos, Quaternion.identity);

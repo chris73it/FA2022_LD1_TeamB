@@ -11,11 +11,11 @@ public class SpawnObject : MonoBehaviour
     private GameObject ArmorSkeleton;
 
     [SerializeField]
-    private float skeletonInterval = 3.5f;
+    private float skeletonInterval = 10f;
     [SerializeField]
     private int skeletonCount = 1;
     [SerializeField]
-    private float ArmorSkeletonInterval = 10f;
+    private float ArmorSkeletonInterval = 20f;
     [SerializeField]
     private int armoredCount = 1;
 

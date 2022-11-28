@@ -8,6 +8,7 @@ public class AIChase : MonoBehaviour
     public Character stat;
     public float distanceBetween;
     public float distance;
+    public bool isBoss = false;
 
     private float speedMutation;
 
@@ -27,6 +28,10 @@ public class AIChase : MonoBehaviour
         if (distance < distanceBetween)
         {
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, (stat.speed + speedMutation) * Time.deltaTime);
+        }
+        else if (distance > distanceBetween + 5 && !isBoss)
+        {
+            Destroy(this.gameObject);
         }
     }
 }

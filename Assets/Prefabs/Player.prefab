@@ -903,7 +903,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -917,7 +917,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.1875, y: 11.8125}
+  m_Size: {x: 4.9, y: 11.58}
   m_EdgeRadius: 0
 --- !u!114 &4831476834038272274
 MonoBehaviour:
