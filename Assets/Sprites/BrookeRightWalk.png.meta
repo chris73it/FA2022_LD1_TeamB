@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: e1efd3e2910ab0f41a47900813df0dde
+guid: 9a96999334bea0e439921ce4486d3dce
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,7 +20,6 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -34,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -64,7 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  swizzle: 50462976
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -102,41 +101,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RightWalkSprite2_0
+      name: NewRightWalkSprite_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 115
-        height: 256
+        width: 85
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d36a7335d9f6e14a93455a36690694e
-      internalID: 1805857798
+      spriteID: 61c7180866accc6468942913f8a542ff
+      internalID: 1557219977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RightWalkSprite2_1
+      name: NewRightWalkSprite_1
       rect:
         serializedVersion: 2
-        x: 115
+        x: 85
         y: 0
-        width: 115
-        height: 256
+        width: 85
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c51411bab14e0b4e8276d2039d7f531
-      internalID: -1157094369
+      spriteID: e2404371298e9e840a36b7a3b7389408
+      internalID: 494862399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RightWalkSprite2_2
+      name: NewRightWalkSprite_2
       rect:
         serializedVersion: 2
-        x: 230
+        x: 170
         y: 0
-        width: 115
-        height: 256
+        width: 85
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06b5fe69fbda0bd4fa58bb0268390444
-      internalID: 230154570
+      spriteID: c8203843b1606f74d810136d4945524b
+      internalID: 1711760330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RightWalkSprite2_3
+      name: NewRightWalkSprite_3
       rect:
         serializedVersion: 2
-        x: 345
+        x: 255
         y: 0
-        width: 115
-        height: 256
+        width: 85
+        height: 189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2512a47a68284b488cb66309c3796eb
-      internalID: -403425769
+      spriteID: fccd7592889b7874d962d353c6411b64
+      internalID: 976625798
       vertices: []
       indices: 
       edges: []
@@ -224,12 +199,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      RightWalkSprite2_1: -1157094369
-      RightWalkSprite2_2: 230154570
-      RightWalkSprite2_3: -403425769
-      RightWalkSprite2_0: 1805857798
+      NewRightWalkSprite_1: 494862399
+      NewRightWalkSprite_3: 976625798
+      NewRightWalkSprite_0: 1557219977
+      NewRightWalkSprite_2: 1711760330
   spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
