@@ -17,6 +17,7 @@ public class ScrollBar : MonoBehaviour
 
     public void Update()
     {
-        bar.gameObject
+       // Lore.GameObject
     }
+
 }
