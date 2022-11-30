@@ -419,7 +419,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 9e79ffff407bffffb480ffffc080ffff5085ffff7285fffff8f3ffff0afbffff625f0000527a00006e7a0000a47a0000c87a0000e0830000b4a80000f0a800000ca9000030a900004aa9000090a9000024b60000
+      m_ExpandedIDs: 341efeff8c1efefff41efeff581ffeffb01ffeff0420feff7620feffba22feff14faffff16faffff046b0000106b00003a6b0000426b00005e6b0000826b0000926b00009c6b0000ae6b0000b86b0000c06b0000e26b0000f66b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -734,9 +734,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 502.03845, y: 190.0916, z: -3.6071732}
+    m_Target: {x: 579.99365, y: 242.77316, z: -3.5525916}
     speed: 2
-    m_Value: {x: 500.22522, y: 188.93565, z: -3.7243528}
+    m_Value: {x: 576.1116, y: 255.06631, z: -3.376538}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -786,9 +786,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 248.68445
+    m_Target: 408.8376
     speed: 2
-    m_Value: 260.40256
+    m_Value: 391.23215
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -953,22 +953,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Sprites
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 65
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Sprites
   m_LastFoldersGridSize: 65
   m_LastProjectPath: C:\Users\amendoza\Documents\Unity\FA2022_LD1_TeamB
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3a650000
-    m_LastClickedID: 25914
-    m_ExpandedIDs: 00000000cc64000000ca9a3bffffff7f
+    m_SelectedIDs: ca640000
+    m_LastClickedID: 25802
+    m_ExpandedIDs: 00000000a664000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -996,7 +996,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000cc640000
+    m_ExpandedIDs: 00000000a6640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1024,7 +1024,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000e4920000de6000005c640000a86a0000a46a00001c6400000ecb00000665000010640000b4740000967400002e660000
+    m_ExpandedInstanceIDs: c6230000e4920000de6000005c640000a86a0000a46a00001c6400000ecb00000665000010640000b4740000967400002e6600001ea60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
