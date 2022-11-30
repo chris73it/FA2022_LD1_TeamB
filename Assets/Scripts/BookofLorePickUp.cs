@@ -22,7 +22,7 @@ public class BookofLorePickUp : MonoBehaviour
     void PickedUp(bool isPickedUp)
     {
         Debug.Log("button");
-        button.SetActive(isPickedUp);
+        button.GetComponent<BookofLore>().button.SetActive(isPickedUp);
         gameObject.SetActive(!isPickedUp);
     }
 
