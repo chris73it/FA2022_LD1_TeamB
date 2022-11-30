@@ -21,6 +21,7 @@ public class BookofLorePickUp : MonoBehaviour
 
     void PickedUp(bool isPickedUp)
     {
+        Debug.Log("button");
         button.SetActive(isPickedUp);
         gameObject.SetActive(!isPickedUp);
     }
