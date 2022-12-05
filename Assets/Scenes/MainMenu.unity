@@ -6828,7 +6828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ad590368327b6042a717112096664e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameStartScene: 0
+  Level: 0
   canvas: {fileID: 0}
 --- !u!1 &1563920628
 GameObject:
@@ -8930,5 +8930,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ad590368327b6042a717112096664e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameStartScene: 1
+  Level: 2
   canvas: {fileID: 1051472668}
