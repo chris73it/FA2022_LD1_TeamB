@@ -3,18 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartGameButton : MonoBehaviour
+public class LevelManager : MonoBehaviour
 {
-    public int gameStartScene;
+    public int Level;
+    
     public GameObject canvas;
 
     public void StartGame()
     {
         canvas.SetActive(false);
-        SceneManager.LoadScene(gameStartScene);
+        SceneManager.LoadScene(Level);
     }
     public void QuitGame()
     {
         Application.Quit();
+    }
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(Level);
     }
 }
