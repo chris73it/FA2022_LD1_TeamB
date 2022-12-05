@@ -784,7 +784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameStartScene: 0
-  canvas: {fileID: 0}
+  canvas: {fileID: 492377231}
 --- !u!1001 &216944322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76851,11 +76851,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4987048170096575185, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -99
+      value: -250
       objectReference: {fileID: 0}
     - target: {fileID: 4987048170096575185, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -292
+      value: 348
       objectReference: {fileID: 0}
     - target: {fileID: 4987048170096575185, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
       propertyPath: m_LocalPosition.z
