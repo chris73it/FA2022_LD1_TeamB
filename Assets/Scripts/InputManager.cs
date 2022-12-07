@@ -5,14 +5,14 @@ using UnityEngine;
 public class InputManager : MonoBehaviour
 {
 
-    public bool enabled = true;
+    public bool check = true;
 
     public bool mouseLeft, mouseRight, reload, pause, pickup;
     public float horizontal, vertical;
 
     void Update()
     {
-        if (enabled)
+        if (check)
         {
             mouseLeft = Input.GetMouseButton(0);
             mouseRight = Input.GetMouseButton(1);

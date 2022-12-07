@@ -30,6 +30,6 @@ public class LevelManager : MonoBehaviour
     {
         canvas.SetActive(false);
         main.GetComponent<MainMenuCtrl>().Canvas.SetActive(true);
-        SceneManager.UnloadScene(Level);
+        
     }
 }
