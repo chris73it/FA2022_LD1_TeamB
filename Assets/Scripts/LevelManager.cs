@@ -28,8 +28,9 @@ public class LevelManager : MonoBehaviour
     }
     public void Quit()
     {
-        canvas.SetActive(false);
-        main.GetComponent<MainMenuCtrl>().Canvas.SetActive(true);
+        //canvas.SetActive(false);
+        // main.GetComponent<MainMenuCtrl>().Canvas.SetActive(true);
+        SceneManager.LoadScene(Level);
         
     }
 }

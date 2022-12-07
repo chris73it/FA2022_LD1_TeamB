@@ -310,8 +310,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 314aa880407afdd42abaffec46d08722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickUpText: {fileID: 1050161917228088849}
-  PickedUp: 0
+  chapterNumber: 0
+  button: {fileID: 0}
 --- !u!1 &3180148456929932116
 GameObject:
   m_ObjectHideFlags: 0
