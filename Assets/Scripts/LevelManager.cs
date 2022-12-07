@@ -9,6 +9,7 @@ public class LevelManager : MonoBehaviour
     public int Level;
     public GameObject canvas;
     public GameObject main;
+
     public void Start()
     {
         main = GameObject.Find("MainMenuCtrl");
@@ -30,6 +31,6 @@ public class LevelManager : MonoBehaviour
     {
         canvas.SetActive(false);
         main.GetComponent<MainMenuCtrl>().Canvas.SetActive(true);
-        
+        Application.UnloadLevel("NercomancerLevel");
     }
 }
