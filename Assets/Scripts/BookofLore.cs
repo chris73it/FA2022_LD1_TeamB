@@ -7,9 +7,9 @@ using UnityEngine.UI;
 public class BookofLore : MonoBehaviour
 {
     private InputManager input;
-    //Scene scene;
+
     public SceneManager Level;
-    //public bool pickedUp;
+
     public int chapterNumber;
     public GameObject button;
 

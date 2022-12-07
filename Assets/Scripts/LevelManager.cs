@@ -5,10 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    public int Level;
-    
-    public GameObject canvas;
 
+    public int Level;
+    public GameObject canvas;
+    public GameObject main;
+    public void Start()
+    {
+        main = GameObject.Find("MainMenuCtrl");
+    }
     public void StartGame()
     {
         canvas.SetActive(false);
@@ -21,5 +25,11 @@ public class LevelManager : MonoBehaviour
     public void NextLevel()
     {
         SceneManager.LoadScene(Level);
+    }
+    public void Quit()
+    {
+        canvas.SetActive(false);
+        main.GetComponent<MainMenuCtrl>().Canvas.SetActive(true);
+        SceneManager.UnloadScene(Level);
     }
 }
