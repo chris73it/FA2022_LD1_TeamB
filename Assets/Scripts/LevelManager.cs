@@ -9,6 +9,7 @@ public class LevelManager : MonoBehaviour
     public int Level;
     public GameObject canvas;
     public GameObject main;
+    public InputManager input;
     public void Start()
     {
         main = GameObject.Find("MainMenuCtrl");
@@ -30,6 +31,10 @@ public class LevelManager : MonoBehaviour
     {
         //canvas.SetActive(false);
         // main.GetComponent<MainMenuCtrl>().Canvas.SetActive(true);
+
+        //unpause
+        Time.timeScale = 1f;
+        //input.enabled = true;
         SceneManager.LoadScene(Level);
         
     }

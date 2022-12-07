@@ -1539,7 +1539,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 382906972}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -16}
   m_LocalScale: {x: 0.25434667, y: 1.3794731, z: 0.25434667}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6965,6 +6965,7 @@ MonoBehaviour:
   Level: 0
   canvas: {fileID: 0}
   main: {fileID: 0}
+  input: {fileID: 0}
 --- !u!1 &1563920628
 GameObject:
   m_ObjectHideFlags: 0
@@ -7163,7 +7164,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581450730}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9101,3 +9102,4 @@ MonoBehaviour:
   Level: 2
   canvas: {fileID: 1051472668}
   main: {fileID: 0}
+  input: {fileID: 0}
