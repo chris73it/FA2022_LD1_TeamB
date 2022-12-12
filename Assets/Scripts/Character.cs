@@ -14,6 +14,7 @@ public class Character : MonoBehaviour
     public XP_Bar xpBar;
     public SpawnItems dropItem;
     public GameObject keyImage;
+    public GameObject PlayerSprite;
 
     public CharacterType type;
 
@@ -119,7 +120,7 @@ public class Character : MonoBehaviour
 
     void disablePlayer()
     {
-        this.GetComponent<SpriteRenderer>().enabled = false; // broken
+        PlayerSprite.GetComponent<SpriteRenderer>().enabled = false; // broken
         this.GetComponent<InputManager>().enabled = false;
         GameObject.Find("Arm").SetActive(false);
         disabled = true;

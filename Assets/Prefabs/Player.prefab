@@ -147,8 +147,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ad590368327b6042a717112096664e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameStartScene: 2
+  Level: 0
   canvas: {fileID: 0}
+  main: {fileID: 0}
+  input: {fileID: 0}
 --- !u!1 &161763235019230781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1633,8 +1635,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ad590368327b6042a717112096664e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameStartScene: 0
+  Level: 0
   canvas: {fileID: 0}
+  main: {fileID: 0}
+  input: {fileID: 0}
 --- !u!1 &3542319613648336208
 GameObject:
   m_ObjectHideFlags: 0
@@ -4228,8 +4232,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ad590368327b6042a717112096664e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameStartScene: 0
+  Level: 0
   canvas: {fileID: 6403989625709185715}
+  main: {fileID: 0}
+  input: {fileID: 0}
 --- !u!1 &6660977546455751665
 GameObject:
   m_ObjectHideFlags: 0

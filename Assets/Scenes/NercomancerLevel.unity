@@ -87425,6 +87425,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4449099302284407997, guid: c6a7ac0a82a5f7843a58d2d30bde8c85, type: 3}
   m_PrefabInstance: {fileID: 799062759}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &813550308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 948316001183337280, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
+  m_PrefabInstance: {fileID: 1604717505}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &886673225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89080,6 +89085,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1421765076329338362, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
+      propertyPath: Level
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1421765076329338362, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1604717508}
     - target: {fileID: 1459281542855915309, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
       propertyPath: anim
       value: 
@@ -89176,6 +89189,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4987048170096575196, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
+      propertyPath: PlayerSprite
+      value: 
+      objectReference: {fileID: 813550308}
     - target: {fileID: 4987048170096575198, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
       propertyPath: input
       value: 
