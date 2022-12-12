@@ -89310,7 +89310,8 @@ PrefabInstance:
       propertyPath: unload
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1385845866295694582, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 40f86c337a71b814390e27d9f37befd1, type: 3}
 --- !u!223 &1604717506 stripped
