@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shell_Level.unity
     guid: 69c62a44f0d9aa24b88b21b4964acdd8
+  - enabled: 1
+    path: Assets/Scenes/EndLevelHotel.unity
+    guid: 763c80f3cfa876d44ba7a078cba70fb4
   m_configObjects: {}
