@@ -12,10 +12,10 @@ public class InputManager : MonoBehaviour
 
     void Update()
     {
+        mouseLeft = Input.GetMouseButton(0);
+        mouseRight = Input.GetMouseButton(1);
         if (enabled)
         {
-            mouseLeft = Input.GetMouseButton(0);
-            mouseRight = Input.GetMouseButton(1);
             reload = Input.GetKey(KeyCode.R);
 
             horizontal = Input.GetAxisRaw("Horizontal");

@@ -37,7 +37,7 @@ public class Character : MonoBehaviour
     }
     void Update()
     {
-        if (currentHealth <= 0 && !disabled)
+        if (currentHealth <= 0 && !disabled) 
         {
             MrStarkIDontFeelSoGood();
         }
@@ -45,7 +45,7 @@ public class Character : MonoBehaviour
         {
             TakeDamage(2);
         }
-        if (Input.GetKeyDown(KeyCode.K))
+        if (Input.GetKeyDown(KeyCode.K)) //broken
         {
             //thanos snap
             TakeDamage(20);
@@ -121,7 +121,7 @@ public class Character : MonoBehaviour
     void disablePlayer()
     {
         PlayerSprite.GetComponent<SpriteRenderer>().enabled = false; // broken
-        this.GetComponent<InputManager>().enabled = false;
+        GameObject.Find("GameManager").GetComponent<InputManager>().enabled = false;
         GameObject.Find("Arm").SetActive(false);
         disabled = true;
     }

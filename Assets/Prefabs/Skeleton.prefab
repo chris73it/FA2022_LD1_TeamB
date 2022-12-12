@@ -192,6 +192,7 @@ MonoBehaviour:
   xpBar: {fileID: 0}
   dropItem: {fileID: 4802434593461986682}
   keyImage: {fileID: 0}
+  PlayerSprite: {fileID: 0}
   type: 1
   hasKey: 0
 --- !u!114 &7761527075088477928
@@ -440,7 +441,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 135723251344610783, guid: 3d97b9e0ccee8624782b61754d7a942d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1406465712143811826, guid: 3d97b9e0ccee8624782b61754d7a942d, type: 3}
       propertyPath: body
@@ -449,6 +450,10 @@ PrefabInstance:
     - target: {fileID: 1406465712143811826, guid: 3d97b9e0ccee8624782b61754d7a942d, type: 3}
       propertyPath: rate
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1708006988810668374, guid: 3d97b9e0ccee8624782b61754d7a942d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6694014896499647462, guid: 3d97b9e0ccee8624782b61754d7a942d, type: 3}
       propertyPath: m_RootOrder
