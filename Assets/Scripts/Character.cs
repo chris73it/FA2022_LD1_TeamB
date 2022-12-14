@@ -63,11 +63,20 @@ public class Character : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        if (currentHealth < 0)
+        {
+            currentHealth = 0;
+        }
         healthBar.SetHealth(currentHealth);
+
     }
     public void Heal(int health)
     {
         currentHealth += health;
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
         healthBar.SetHealth(currentHealth);
     }
 
@@ -122,6 +131,7 @@ public class Character : MonoBehaviour
     {
         PlayerSprite.GetComponent<SpriteRenderer>().enabled = false; // broken
         GameObject.Find("GameManager").GetComponent<InputManager>().enabled = false;
+        GameObject.Find("GameManager").GetComponent<InputManager>().isDead = true;
         GameObject.Find("Arm").SetActive(false);
         disabled = true;
     }
