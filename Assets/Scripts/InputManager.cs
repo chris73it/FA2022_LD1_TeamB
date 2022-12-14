@@ -6,10 +6,16 @@ public class InputManager : MonoBehaviour
 {
 
     public bool enabled = true;
+    public bool isDead = false;
 
     public bool mouseLeft, mouseRight, reload, pause, pickup;
     public float horizontal, vertical;
 
+    private void Start()
+    {
+        isDead = false;
+        enabled = true;
+    }
     void Update()
     {
         mouseLeft = Input.GetMouseButton(0);
@@ -24,6 +30,9 @@ public class InputManager : MonoBehaviour
             pickup = Input.GetKey(KeyCode.F);
         }
 
-        pause = Input.GetKey(KeyCode.Escape);
+        if (!isDead)
+        {
+            pause = Input.GetKey(KeyCode.Escape);
+        }
     }
 }

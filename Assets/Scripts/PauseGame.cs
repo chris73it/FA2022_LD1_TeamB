@@ -49,6 +49,11 @@ public class PauseGame : MonoBehaviour
         Time.timeScale = 1f;
         Canvas.gameObject.SetActive(false);
         input.enabled = true;
+    }
 
+    public void resetHoldingButton()
+    {
+        holdingButton = false;
+        Paused = false;
     }
 }
